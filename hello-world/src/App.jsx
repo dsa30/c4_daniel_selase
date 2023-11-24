@@ -1,14 +1,12 @@
 import './App.css'
+import Button from './components/Button'
 
 function App() {
 
   return (
-  <div>
-     <h1>User Profile Details</h1>
-     <p>Name: Daniel Selase Anyidoho</p>
-     <p>Education: Brigham Young University - Idaho</p>
-     <p>Profession: Stand up comedian/Software Developer</p>
-     <p>Skills: HTML, CSS ,JavaScript, TypeSCript</p>
+  <div style={{display: "flex", gap: "10px"}}>
+     <Button label="Log In" background="green" color="white" />
+     <Button label="Sign In" background="crimson" color="white" />
   </div>
   )
 }
